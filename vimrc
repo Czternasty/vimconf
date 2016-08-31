@@ -11,3 +11,7 @@ colorscheme railscasts
 
 nnoremap <F2> :buffers<CR>
 nnoremap <F4> :bNext<CR>
+
+" ease runtimepath management
+execute pathogen#infect()
+
